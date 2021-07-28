@@ -6,7 +6,7 @@ services:
   # описание контейнера db
   db:
     # образ, из которого должен быть запущен контейнер
-    image: postgres:12.4
+    image: postgres:latest
     # volume и связанная с ним директория в контейнере
     volumes:
       - postgres_data:/var/lib/postgresql/data/
@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: .
+    image: walera43/yamdb
     restart: always
     command: gunicorn api_yamdb.wsgi:application --bind 0.0.0.0:8000
     volumes:
