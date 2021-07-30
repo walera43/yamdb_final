@@ -1,7 +1,8 @@
 # Проект API YaMDb
 ![example workflow](https://github.com/walera43/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ![status](https://img.shields.io/website?url=http%3A%2F%2F178.154.193.47%2Fapi%2Fv1%2Ftitles)
-[Пример](http://178.154.193.47/api/v1/titles/)
+
+[Пример API YaMDb](http://178.154.193.47/api/v1/titles/)
 
 ____
 Проект YaMDb собирает отзывы (*Review*) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
